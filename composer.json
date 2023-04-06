@@ -24,7 +24,9 @@
     "scssphp/scssphp": "^1.10.2",
     "matthiasmullie/minify": "^1.3",
     "gkralik/php-uglifyjs": "^1.0",
-    "tonyhhyip/sse": "^2.1.3"
+    "tonyhhyip/sse": "^2.1.3",
+    "stoutlogic/acf-builder": "^1.12"
+
   },
   "config": {
     "optimize-autoloader": true,
