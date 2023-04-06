@@ -1,3 +1,9 @@
+## Bredewold Web starter pack
+
+Stap 1. 
+Maak een folder aan in je localhost configuratie. open de command line in deze folder. Type het volgende in: git clone https://github.com/BredeGerrit/bredewoldweb.git . 
+
+
 <p align="center">
   <a href="https://roots.io/bedrock/">
     <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" height="100">
