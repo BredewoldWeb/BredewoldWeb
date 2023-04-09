@@ -202,3 +202,280 @@ Stack trace:
 [09-Apr-2023 16:10:25 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\bredewoldweb/web/app/themes/bredewoldweb/build/js/theme.js in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 13
 [09-Apr-2023 16:10:39 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\bredewoldweb/web/app/themes/bredewoldweb/build/js/theme.js in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 13
 [09-Apr-2023 16:10:57 UTC] PHP Warning:  filemtime(): stat failed for C:\xampp\htdocs\bredewoldweb/web/app/themes/bredewoldweb/build/js/theme.js in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 13
+[09-Apr-2023 16:37:26 UTC] PHP Fatal error:  Cannot redeclare render_text() (previously declared in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text\functions.php:3) in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 3
+[09-Apr-2023 16:39:55 UTC] PHP Fatal error:  Cannot redeclare render_text() (previously declared in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text\functions.php:3) in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 3
+[09-Apr-2023 16:39:57 UTC] PHP Fatal error:  Cannot redeclare render_text() (previously declared in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text\functions.php:3) in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 3
+[09-Apr-2023 16:42:52 UTC] delete unused attachments cron
+[09-Apr-2023 16:42:52 UTC] user has disabled unused attachment deletion
+[09-Apr-2023 16:47:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 4
+[09-Apr-2023 16:47:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
+[09-Apr-2023 16:47:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 13
+[09-Apr-2023 16:52:05 UTC] ACF Image Aspect Ratio Crop: Failed to open image
+[09-Apr-2023 16:52:05 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [image_no_editor] => Array
+                (
+                    [0] => Kon geen editor selecteren.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[09-Apr-2023 16:52:08 UTC] ACF Image Aspect Ratio Crop: Failed to open image
+[09-Apr-2023 16:52:08 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [image_no_editor] => Array
+                (
+                    [0] => Kon geen editor selecteren.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[09-Apr-2023 16:52:53 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 13
+[09-Apr-2023 16:53:50 UTC] ACF Image Aspect Ratio Crop: Failed to open image
+[09-Apr-2023 16:53:50 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [image_no_editor] => Array
+                (
+                    [0] => Kon geen editor selecteren.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[09-Apr-2023 16:54:20 UTC] ACF Image Aspect Ratio Crop: Failed to open image
+[09-Apr-2023 16:54:20 UTC] WP_Error Object
+(
+    [errors] => Array
+        (
+            [image_no_editor] => Array
+                (
+                    [0] => Kon geen editor selecteren.
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[09-Apr-2023 16:55:02 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 13
+[09-Apr-2023 16:58:59 UTC] PHP Parse error:  syntax error, unexpected token "include" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 6
+[09-Apr-2023 16:59:26 UTC] PHP Parse error:  syntax error, unexpected token "include" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 6
+[09-Apr-2023 16:59:31 UTC] PHP Parse error:  syntax error, unexpected token "include" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 6
+[09-Apr-2023 17:00:29 UTC] PHP Parse error:  syntax error, unexpected token "include" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 6
+[09-Apr-2023 17:01:32 UTC] PHP Parse error:  syntax error, unexpected token "include" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 6
+[09-Apr-2023 17:02:58 UTC] PHP Parse error:  syntax error, unexpected token "include" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 6
+[09-Apr-2023 17:03:33 UTC] PHP Parse error:  syntax error, unexpected token "include" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\functions.php on line 6
+[09-Apr-2023 17:04:20 UTC] PHP Parse error:  syntax error, unexpected token "??", expecting end of file in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text\view.php on line 5
+[09-Apr-2023 17:07:54 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 13
+[09-Apr-2023 17:07:56 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 13
+[09-Apr-2023 17:08:00 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 13
+[09-Apr-2023 17:10:49 UTC] PHP Fatal error:  Uncaught Error: Class "SassCompiler" not found in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\compiler.php:13
+Stack trace:
+#0 C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php(24): require_once()
+#1 C:\xampp\htdocs\bredewoldweb\web\wp\wp-settings.php(591): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bredewoldweb\web\wp-config.php(9): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bredewoldweb\web\wp\wp-load.php(55): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bredewoldweb\web\wp\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bredewoldweb\web\index.php(6): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\compiler.php on line 13
+[09-Apr-2023 17:12:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SassCompiler::add_import_path() in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\compiler.php:16
+Stack trace:
+#0 C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php(24): require_once()
+#1 C:\xampp\htdocs\bredewoldweb\web\wp\wp-settings.php(591): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bredewoldweb\web\wp-config.php(9): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bredewoldweb\web\wp\wp-load.php(55): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bredewoldweb\web\wp\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bredewoldweb\web\index.php(6): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\compiler.php on line 16
+[09-Apr-2023 17:18:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SassCompiler::addImportPath() in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\compiler.php:16
+Stack trace:
+#0 C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php(24): require_once()
+#1 C:\xampp\htdocs\bredewoldweb\web\wp\wp-settings.php(591): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bredewoldweb\web\wp-config.php(9): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bredewoldweb\web\wp\wp-load.php(55): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bredewoldweb\web\wp\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\bredewoldweb\web\index.php(6): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\compiler.php on line 16
+[09-Apr-2023 17:59:01 UTC] PHP Warning:  require_once(inc/template-support.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 17:59:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'inc/template-support.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php:32
+Stack trace:
+#0 C:\xampp\htdocs\bredewoldweb\web\wp\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\bredewoldweb\web\wp-config.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bredewoldweb\web\wp\wp-load.php(55): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bredewoldweb\web\wp\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bredewoldweb\web\index.php(6): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 18:00:43 UTC] PHP Warning:  require_once(inc/templates.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 18:00:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'inc/templates.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php:32
+Stack trace:
+#0 C:\xampp\htdocs\bredewoldweb\web\wp\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\bredewoldweb\web\wp-config.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bredewoldweb\web\wp\wp-load.php(55): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bredewoldweb\web\wp\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 18:00:49 UTC] PHP Warning:  require_once(inc/templates.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 18:00:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'inc/templates.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php:32
+Stack trace:
+#0 C:\xampp\htdocs\bredewoldweb\web\wp\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\bredewoldweb\web\wp-config.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bredewoldweb\web\wp\wp-load.php(55): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bredewoldweb\web\wp\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 18:00:49 UTC] PHP Warning:  require_once(inc/templates.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 18:00:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'inc/templates.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php:32
+Stack trace:
+#0 C:\xampp\htdocs\bredewoldweb\web\wp\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\bredewoldweb\web\wp-config.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bredewoldweb\web\wp\wp-load.php(55): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bredewoldweb\web\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\bredewoldweb\web\wp\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\functions.php on line 32
+[09-Apr-2023 18:01:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 4
+[09-Apr-2023 18:01:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
+[09-Apr-2023 18:01:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:01:42 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:04:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 4
+[09-Apr-2023 18:04:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
+[09-Apr-2023 18:04:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:04:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:05:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 4
+[09-Apr-2023 18:05:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
+[09-Apr-2023 18:05:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:05:29 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:12:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 4
+[09-Apr-2023 18:12:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
+[09-Apr-2023 18:12:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:12:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:12:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text\view.php on line 4
+[09-Apr-2023 18:18:32 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:33 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:33 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:33 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:54 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 4
+[09-Apr-2023 18:18:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
+[09-Apr-2023 18:18:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:18:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 18:18:56 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:18:59 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:05 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:10 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:25 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:25 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:27 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:29 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:29 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:30 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:30 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:31 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:32 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:34 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:35 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:41 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:43 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:48 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:51 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:52 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:53 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:19:54 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:00 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:02 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:10 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:10 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:10 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:11 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:12 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:12 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:16 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:17 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:17 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:18 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:19 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:54 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:54 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 18:20:55 UTC] PHP Warning:  Undefined array key "post" in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\templates.php on line 5
+[09-Apr-2023 19:27:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 4
+[09-Apr-2023 19:27:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
+[09-Apr-2023 19:27:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[09-Apr-2023 19:27:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15

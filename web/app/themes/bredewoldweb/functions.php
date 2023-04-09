@@ -19,6 +19,7 @@ add_action('admin_enqueue_scripts', function(){
    wp_enqueue_style('admin-theme-css', get_template_directory_uri() . '/build/theme.css', '', filemtime(get_template_directory() . '/build/theme.css'));
 });
 
+
 /* Miscellaneous function and additions to enhance (backend) UX */
 require_once 'inc/misc.php';
 
@@ -27,3 +28,6 @@ require_once 'blocks/block-manager.php';
 
 /* Compiles all scss and js */
 require_once 'compiler.php';
+
+/* Add template functionality */
+require_once 'inc/templates.php';
