@@ -1,7 +1,9 @@
 ## Bredewold Web starter pack
 
 Stap 1. 
-Maak een folder aan in je localhost configuratie. open de command line in deze folder. Type het volgende in: git clone "https://github.com/BredeGerrit/bredewoldweb.git ." 
+Maak een folder aan in je localhost configuratie. open de command line in deze folder. Voer de volgende commando's uit
+1. git clone https://github.com/BredeGerrit/bredewoldweb.git .
+2. rm -rf .git
 
 Stap 2. 
 Installeer Bedrock (vanaf Getting Started) [Bedrock installation documentation](https://roots.io/bedrock/docs/installation/).
