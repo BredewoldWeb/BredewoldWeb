@@ -1,0 +1,17 @@
+{
+    "name": "text",
+    "title": "Tesktveld",
+    "description": "Veld voor tekst",
+    "category": "theme",
+    "icon": "admin-comments",
+    "acf": {
+        "mode": "preview",
+        "renderCallback": "render_text"
+    },
+    "supports": {
+        "align": false,
+        "customClassName": true,
+        "multiple": true,
+        "reusable": true
+    }
+}
