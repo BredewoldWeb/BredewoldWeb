@@ -1,3 +1,4 @@
+web/app/debug.log
 web/app/uploads/*
 web/app/cache/*
 web/app/advanced-cache.php

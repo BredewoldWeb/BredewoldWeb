@@ -3,7 +3,7 @@
 use MatthiasMullie\Minify;
 use ScssPhp\ScssPhp\Compiler;
 
-class RockbergSassCompiler
+class SassCompiler
 {
     private $compiler;
     private $import_paths = array();

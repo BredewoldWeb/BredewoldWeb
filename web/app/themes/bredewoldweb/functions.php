@@ -14,6 +14,11 @@ add_action('wp_enqueue_scripts', function(){
 
 });  
 
+/* Make sure that the backend is styled the same as the front-end */
+add_action('admin_enqueue_scripts', function(){
+   wp_enqueue_style('admin-theme-css', get_template_directory_uri() . '/build/theme.css', '', filemtime(get_template_directory() . '/build/theme.css'));
+});
+
 /* Miscellaneous function and additions to enhance (backend) UX */
 require_once 'inc/misc.php';
 

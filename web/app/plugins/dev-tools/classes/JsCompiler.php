@@ -2,7 +2,7 @@
 
 use MatthiasMullie\Minify;
 
-class RockbergJsCompiler
+class JsCompiler
 {
     private $imports = array();
     private $compile_queue = array();

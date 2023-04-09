@@ -1,0 +1,17 @@
+{
+    "name": "text-image",
+    "title": "Teskt met afbeelding",
+    "description": "Veld voor tekst met een afbeelding",
+    "category": "theme",
+    "icon": "admin-comments",
+    "acf": {
+        "mode": "preview",
+        "renderCallback": "render_text_image"
+    },
+    "supports": {
+        "align": false,
+        "customClassName": true,
+        "multiple": true,
+        "reusable": true
+    }
+}
