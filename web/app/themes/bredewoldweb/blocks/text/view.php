@@ -1,5 +1,5 @@
-<section class="block text">
-   <div class="inner-container">
+<section class="text container">
+   <div class="inner-narrow">
         
       <?= $fields['text']; ?>
 

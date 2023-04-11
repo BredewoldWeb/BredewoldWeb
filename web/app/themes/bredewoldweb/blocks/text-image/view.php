@@ -1,5 +1,5 @@
-<section class="block text-image">
-   <div class="inner-container">
+<section class="text-image container">
+   <div class="inner">
 
       <div class="text-image-wrapper text-image-wrapper--<?= $fields['image_position']; ?>">
 

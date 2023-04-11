@@ -1,14 +1,14 @@
-.block{
-    display: flex; 
+.container{
+    display: flex;
     justify-content: center;
     width: 100%; 
-    padding: 100px 0px; 
-    .inner-container{
-        width: 100%; 
-        max-width: 1200px; 
-        padding: 0px 20px; 
+    .inner-narrow{
+        width: calc(100% / 14 * 8); 
     }
-    & + .block{
-        padding-top: 0px; 
+    .inner{
+        width: calc(100% / 14 * 10); 
+    }
+    .inner-wide{
+        width: calc(100% / 14 * 12); 
     }
 }
