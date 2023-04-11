@@ -17,20 +17,18 @@ foreach (glob(__DIR__ . '/*', GLOB_ONLYDIR) as $dir) {
   $folder = basename($dir);
   require_once $dir . '/functions.php';
   
+  /* Make sure ACF builder file exists */
+  if(!file_exists($dir . '/acf.php')){ continue; }
+  
   /* Initialize new ACF fields builder if the file exists */
-  if(file_exists($dir . '/acf.php')){
-
-    $block = new FieldsBuilder($folder);
-    $block->setLocation('block', '==', 'acf/' . $folder);
+  $block = new FieldsBuilder($folder);
+  $block->setLocation('block', '==', 'acf/' . $folder);
+  require_once $dir . '/acf.php';
   
-    require_once $dir . '/acf.php';
-  
-    /* Load fields into block */
-    add_action('acf/init', function () use ($block) {
-      acf_add_local_field_group($block->build());
-    });
-    
-  }
+  /* Load fields into block */
+  add_action('acf/init', function () use ($block) {
+    acf_add_local_field_group($block->build());
+  });
 
 }
 
