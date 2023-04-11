@@ -31,3 +31,6 @@ require_once 'compiler.php';
 
 /* Add template functionality */
 require_once 'inc/templates.php';
+
+/* Add all post types here */
+require_once 'inc/post-types.php';

@@ -20,6 +20,7 @@ if( is_plugin_active('dev-tools/dev-tools.php') ){
     /* Compile all js files */
     $rb_compiler = new JsCompiler(get_template_directory() . '/build/', 'theme');
     $rb_compiler->add_import_paths(get_template_directory() . '/js/theme.js');
+    $rb_compiler->add_import_paths(get_template_directory() . '/js/animations.js');
     $rb_compiler->compile();
 
 } 

@@ -1,16 +1,16 @@
-.block {
+.container {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 100px 0px;
 }
-.block .inner-container {
-  width: 100%;
-  max-width: 1200px;
-  padding: 0px 20px;
+.container .inner-narrow {
+  width: calc(100% / 14 * 8);
 }
-.block + .block {
-  padding-top: 0px;
+.container .inner {
+  width: calc(100% / 14 * 10);
+}
+.container .inner-wide {
+  width: calc(100% / 14 * 12);
 }
 section.block.text-image .text-image-wrapper {
   display: flex;
@@ -33,4 +33,4 @@ section.block.text-image .text-image-wrapper .text-container {
 section.block.text-image .text-image-wrapper--text-right {
   flex-direction: row-reverse;
 }
-/*# sourceMappingURL=http://localhost/bredewoldweb/app/themes/bredewoldweb/build/theme-dev.css.map */
+/*# sourceMappingURL=http://localhost/vitaal/app/themes/bredewoldweb/build/theme-dev.css.map */
