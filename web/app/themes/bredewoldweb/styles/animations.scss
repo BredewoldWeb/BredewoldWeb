@@ -1,0 +1,22 @@
+//fade in animations
+.fadeUp{
+  transform: translateY(40px);
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.fadeUp.inView{
+  transform: inherit;
+  opacity: 1;
+}
+
+.fadeRight{
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.fadeRight.inView{
+  transform: inherit;
+  opacity: 1;
+}
