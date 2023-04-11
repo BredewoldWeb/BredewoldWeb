@@ -1,5 +1,5 @@
 <section class="text container">
-   <div class="inner-narrow">
+   <div class="inner">
         
       <?= $fields['text']; ?>
 

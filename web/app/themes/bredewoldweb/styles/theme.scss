@@ -1,7 +1,8 @@
-.container{
+section.container{
     display: flex;
     justify-content: center;
     width: 100%; 
+    padding: 80px 0px; 
     .inner-narrow{
         width: calc(100% / 14 * 8); 
     }
@@ -11,6 +12,11 @@
     .inner-wide{
         width: calc(100% / 14 * 12); 
     }
+}
+
+section.container,
+#tinymce{
+   p{ font-size: 20px; }
 }
 
 @import "animations";

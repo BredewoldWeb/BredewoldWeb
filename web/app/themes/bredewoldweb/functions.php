@@ -34,3 +34,6 @@ require_once 'inc/templates.php';
 
 /* Add all post types here */
 require_once 'inc/post-types.php';
+
+/* Add tinyMCE config code */
+require_once 'inc/tinymce/config.php';

@@ -1,26 +1,30 @@
-section.block.text-image .text-image-wrapper {
-   display: flex;
-
-   picture.image {
+section.text-image.container {
+   .text-image-wrapper {
+      
       display: flex;
-      align-items: flex-start;
-      width: 50%; 
-    
-      img {
-         width: 100%;  
-         height: auto; 
+
+      picture.image {
+         display: flex;
+         align-items: flex-start;
+         width: 50%;
+
+         img {
+            width: 100%;
+            height: auto;
+         }
       }
-   }
 
-   .spacer{
-      min-width: 60px; 
-   }
+      .spacer {
+         min-width: 60px;
+      }
 
-   .text-container{
-      width: 50%;
-   }
+      .text-container {
+         width: 50%;
+      }
 
-   &--text-right {
-      flex-direction: row-reverse;
+      &.text-right{
+         flex-direction: row-reverse;
+      }
+
    }
 }

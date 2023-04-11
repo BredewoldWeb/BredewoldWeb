@@ -1,36 +1,40 @@
-.container {
+section.container {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 80px 0px;
 }
-.container .inner-narrow {
+section.container .inner-narrow {
   width: calc(100% / 14 * 8);
 }
-.container .inner {
+section.container .inner {
   width: calc(100% / 14 * 10);
 }
-.container .inner-wide {
+section.container .inner-wide {
   width: calc(100% / 14 * 12);
 }
-section.block.text-image .text-image-wrapper {
+section.container p, #tinymce p {
+  font-size: 20px;
+}
+section.text-image.container .text-image-wrapper {
   display: flex;
 }
-section.block.text-image .text-image-wrapper picture.image {
+section.text-image.container .text-image-wrapper picture.image {
   display: flex;
   align-items: flex-start;
   width: 50%;
 }
-section.block.text-image .text-image-wrapper picture.image img {
+section.text-image.container .text-image-wrapper picture.image img {
   width: 100%;
   height: auto;
 }
-section.block.text-image .text-image-wrapper .spacer {
+section.text-image.container .text-image-wrapper .spacer {
   min-width: 60px;
 }
-section.block.text-image .text-image-wrapper .text-container {
+section.text-image.container .text-image-wrapper .text-container {
   width: 50%;
 }
-section.block.text-image .text-image-wrapper--text-right {
+section.text-image.container .text-image-wrapper.text-right {
   flex-direction: row-reverse;
 }
-/*# sourceMappingURL=http://localhost/vitaal/app/themes/bredewoldweb/build/theme-dev.css.map */
+/*# sourceMappingURL=http://localhost/bredewoldweb/app/themes/bredewoldweb/build/theme-dev.css.map */

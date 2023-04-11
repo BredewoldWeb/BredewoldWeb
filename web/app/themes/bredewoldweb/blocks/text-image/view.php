@@ -1,12 +1,10 @@
 <section class="text-image container">
    <div class="inner">
 
-      <div class="text-image-wrapper text-image-wrapper--<?= $fields['image_position']; ?>">
+      <div class="text-image-wrapper <?= $fields['image_position']; ?>">
 
          <div class="text-container">
-            <div class="tiny-content">
-                <?= $fields['text']; ?>
-             </div>
+            <?= $fields['text']; ?>
          </div>
 
          <div class="spacer"></div>
