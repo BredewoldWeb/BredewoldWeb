@@ -3,8 +3,15 @@
 /* Register ACF blocks from the blocks folder */
 add_action('init', function(){
   
+  /* Loop through folders in blocks folder */
   foreach (glob(__DIR__ . '/*', GLOB_ONLYDIR) as $dir) {
+    
+    /* Make sure the register block json exists */
+    if(!file_exists($dir . '/block.json')){ continue; }
+    
+    /* Register ACF Gutenberg block */
     register_block_type( $dir . '/block.json' );
+
   }
 
 });
