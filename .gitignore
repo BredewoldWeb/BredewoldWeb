@@ -4,3 +4,4 @@ web/app/cache/*
 web/app/advanced-cache.php
 web/app/object-cache.php
 web/app/wp-cache-config.php
+.DS_Store
