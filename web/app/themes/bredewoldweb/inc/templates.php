@@ -14,7 +14,7 @@ $labels = array(
    );
 
 register_post_type(
-    "rockberg_template",
+    "bredewold_template",
     array(
          "label" => __("Template", ""),
          "labels" => $labels,
@@ -39,20 +39,20 @@ register_post_type(
 
 
 add_action('add_meta_boxes', function () {
-    add_meta_box('rockberg_template', 'Templates', 'rockberg_template_meta_box', 'page', 'side', 'high');
-    add_meta_box('rockberg_template', 'Templates', 'rockberg_template_meta_box', 'post', 'side', 'high');
+    add_meta_box('bredewold_template', 'Templates', 'bredewold_template_meta_box', 'page', 'side', 'high');
+    add_meta_box('bredewold_template', 'Templates', 'bredewold_template_meta_box', 'post', 'side', 'high');
 });
 
-add_filter('default_excerpt', 'rockberg_load_template', 10, 2);
+add_filter('default_excerpt', 'bredewold_load_template', 10, 2);
 
-function rockberg_template_meta_box()
+function bredewold_template_meta_box()
 {
     $id = get_the_id();
 
-    $templates = get_posts(array('post_type' => 'rockberg_template')); ?>
+    $templates = get_posts(array('post_type' => 'bredewold_template')); ?>
   <div style="text-align: right">
      <?php if ($templates) { ?>
-        <select class="rockberg-templates" style="width: 100%; box-sizing: border-box; margin-top: 6px;">
+        <select class="bredewold-templates" style="width: 100%; box-sizing: border-box; margin-top: 6px;">
            <?php foreach ($templates as $template) { ?>
               <option value="<?= $template->ID ?>"><?= $template->post_title; ?></option>
            <?php } ?>
@@ -63,15 +63,15 @@ function rockberg_template_meta_box()
   <script>
   jQuery(document).ready(function() {
      jQuery(".load-template").click(function(e) {
-        var template_id = jQuery(".rockberg-templates option:selected").val();
-        window.location = 'post-new.php?post_id=<?= $id; ?>&rockberg_template=' + template_id;
+        var template_id = jQuery(".bredewold-templates option:selected").val();
+        window.location = 'post-new.php?post_id=<?= $id; ?>&bredewold_template=' + template_id;
      });
   });
   </script>
   <?php
 }
 
-function rockberg_load_template($excerpt, $post)
+function bredewold_load_template($excerpt, $post)
 {
     global $editing;
     if (! current_user_can('edit_posts') || $editing !== true) {
@@ -82,8 +82,8 @@ function rockberg_load_template($excerpt, $post)
 
     // Load the template
     $template = false;
-    if (isset($_REQUEST['rockberg_template']) && is_numeric($_REQUEST['rockberg_template'])) {
-        $template = get_post($_REQUEST['rockberg_template']);
+    if (isset($_REQUEST['bredewold_template']) && is_numeric($_REQUEST['bredewold_template'])) {
+        $template = get_post($_REQUEST['bredewold_template']);
     }
 
     // Only proceed if we have a template
@@ -143,9 +143,16 @@ function rockberg_load_template($excerpt, $post)
 
         wp_update_post($temp_post);
 
+        /* Add template information to the new post */
+        $t_l = get_post_meta($_REQUEST['bredewold_template'], 'template_locked', true);
+        $t = get_post_meta($_REQUEST['bredewold_template'], 'template', true);
+        update_post_meta($post_id, 'template_locked', $t_l);
+        update_post_meta($post_id, 'template', $t);
+
         ob_end_clean();
 
         wp_redirect(get_edit_post_link($post_id, ''));
+
         exit();
     }
 
