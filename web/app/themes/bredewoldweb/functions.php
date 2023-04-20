@@ -37,3 +37,9 @@ require_once 'inc/post-types.php';
 
 /* Add tinyMCE config code */
 require_once 'inc/tinymce/config.php';
+
+/* Add custom user roles, and user rules */
+require_once 'inc/user-roles.php';
+
+/* Adds functionality to lock blocks for specific users */
+require_once 'inc/block-templates.php';
