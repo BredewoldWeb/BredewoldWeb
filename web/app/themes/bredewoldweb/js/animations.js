@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 
   function fadeUp() {
     for ( var i = 0; i < elementFadeUp.length; i++ ) {
-      var elem = elementFadeUp[i]
+      var elem = elementFadeUp[i];
       var distInView = elem.getBoundingClientRect().top - window.innerHeight + 100;
       if (distInView < 0) {
         elem.classList.add("inView");
@@ -27,7 +27,7 @@ jQuery(document).ready(function(){
 
   function fadeRight() {
     for ( var i = 0; i < elementFadeRight.length; i++ ) {
-      var elem = elementFadeRight[i]
+      var elem = elementFadeRight[i];
       var distInView = elem.getBoundingClientRect().top - window.innerHeight + 0;
       if (distInView < 0) {
         elem.classList.add("inView");
