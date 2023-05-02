@@ -44,7 +44,14 @@ add_filter('allowed_block_types_all', function($allowed_blocks_types, $block_edi
 
   $allowed_blocks[] = 'core/block';
   foreach (glob(__DIR__ . '/*', GLOB_ONLYDIR) as $dir) {
-     $allowed_blocks[] = 'acf/' . basename($dir);
+
+    /* Make admin blocks (blocks with the category 'admin') unavailable to non-admins. */
+    if(file_exists($dir . '/block.json')){
+      $block = json_decode(file_get_contents($dir . '/block.json'));
+      if($block->category == 'admin' && !current_user_can('administrator')){ continue; }
+    }
+
+    $allowed_blocks[] = 'acf/' . basename($dir);
   }
 
   return $allowed_blocks;
@@ -52,4 +59,15 @@ add_filter('allowed_block_types_all', function($allowed_blocks_types, $block_edi
 }, 10, 2);
 
 
-
+/* Create custom block categories */
+add_action('block_categories_all', function ($categories) {
+  return array_merge(
+     $categories,
+     array(
+        array(
+          'slug'  => 'admin',
+          'title' => 'Admin only'
+        )
+     )
+  );
+}, 10, 2);
