@@ -21,7 +21,8 @@
     "roots/wordpress": "6.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "stoutlogic/acf-builder": "^1.12"
+    "stoutlogic/acf-builder": "^1.12",
+    "intervention/image": "^2.7.2"
   },
   "config": {
     "optimize-autoloader": true,
