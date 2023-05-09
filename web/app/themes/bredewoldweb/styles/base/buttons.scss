@@ -1,0 +1,60 @@
+/* #tinymce = Inside the tinymce editor */
+/* .mce-menu = The tinyMCE menu bar */ 
+/* section.container = front-end and backend */
+body section.container,
+#tinymce,
+.mce-menu {
+    .cta-1,
+    .mce-i-br-cta-1 {
+        display: inline-block;
+        font-size: 20px; 
+        padding: 10px 40px;
+        background-color: #ff0000;
+        color: #fff; 
+        text-decoration: none; 
+        transition: all 0.2s;
+        -webkit-appearance: none; 
+        appearance: none;
+        &:hover{
+            background-color: darken(#ff0000, 12%);
+        }
+    }
+}
+
+
+
+
+/* Tinymce header bar styling */
+.mce-i-br-buttons{
+    display: none!important;
+    + span.mce-txt{
+        display: inline-block!important;
+        font-size: 16px!important;
+        font-weight: 700; 
+        line-height: 22px!important;
+    } 
+}
+
+
+/* Make sure the buttons looks normal in the editor */
+@for $i from 0 through 10 {
+    .mce-i-br-cta-#{$i} {
+        display: inline-block !important;
+        text-align: center!important;
+        padding: 0px!important;
+        font-size: 18px !important;
+        line-height: 1.4 !important;
+        height: 42px !important;
+        line-height: 42px!important;
+        box-sizing: border-box !important;
+        width: calc(100% - 6px)!important;
+
+        &:before {
+            content: "Button";
+        }
+
+        & + span {
+            display: none;
+        }
+    }
+}
