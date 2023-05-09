@@ -43,3 +43,6 @@ require_once 'inc/user-roles.php';
 
 /* Adds functionality to lock blocks for specific users */
 require_once 'inc/block-templates.php';
+
+/* Add image cropper */
+require_once 'inc/cropper.php';
