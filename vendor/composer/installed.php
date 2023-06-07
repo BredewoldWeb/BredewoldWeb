@@ -3,7 +3,7 @@
         'name' => 'roots/bedrock',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '73516b41582b1325a974429e145ba5d3b06bf468',
+        'reference' => '0bb48bb50faf3ddc361615ca305ac25404970017',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -121,7 +121,7 @@
         'roots/bedrock' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '73516b41582b1325a974429e145ba5d3b06bf468',
+            'reference' => '0bb48bb50faf3ddc361615ca305ac25404970017',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -146,8 +146,8 @@
             'dev_requirement' => false,
         ),
         'roots/wordpress' => array(
-            'pretty_version' => '6.2',
-            'version' => '6.2.0.0',
+            'pretty_version' => '6.2.2',
+            'version' => '6.2.2.0',
             'reference' => '41ff6e23ccbc3a1691406d69fe8c211a225514e2',
             'type' => 'metapackage',
             'install_path' => NULL,
@@ -164,9 +164,9 @@
             'dev_requirement' => false,
         ),
         'roots/wordpress-no-content' => array(
-            'pretty_version' => '6.2',
-            'version' => '6.2.0.0',
-            'reference' => '6.2',
+            'pretty_version' => '6.2.2',
+            'version' => '6.2.2.0',
+            'reference' => '6.2.2',
             'type' => 'wordpress-core',
             'install_path' => __DIR__ . '/../../web/wp',
             'aliases' => array(),
@@ -238,7 +238,7 @@
         'wordpress/core-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '6.2',
+                0 => '6.2.2',
             ),
         ),
     ),
