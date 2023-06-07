@@ -19,6 +19,10 @@ add_action('admin_enqueue_scripts', function(){
    wp_enqueue_style('admin-theme-css', get_template_directory_uri() . '/build/theme.css', '', filemtime(get_template_directory() . '/build/theme.css'));
 });
 
+/* Add Bredewold logo/color to the WordPress login */
+add_action('login_enqueue_scripts', function(){
+   wp_enqueue_style('custom-login', get_template_directory_uri() . '/build/login.css', '', filemtime(get_template_directory() . '/build/login.css'));
+});
 
 /* Miscellaneous function and additions to enhance (backend) UX */
 require_once 'inc/misc.php';
