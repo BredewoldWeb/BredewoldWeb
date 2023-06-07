@@ -1,10 +1,10 @@
 /****************************************************************************/
-         /*C:\xampp\htdocs\bredewoldweb/web/app/themes/bredewoldweb/js/theme.js */
+         /*C:\Bitnami\wampstack-8.1.2-0\apache2\htdocs\bredewoldweb/web/app/themes/bredewoldweb/js/theme.js */
          /***************************************************************************/
          jQuery(document).ready(function(){
 
 });/****************************************************************************/
-         /*C:\xampp\htdocs\bredewoldweb/web/app/themes/bredewoldweb/js/animations.js */
+         /*C:\Bitnami\wampstack-8.1.2-0\apache2\htdocs\bredewoldweb/web/app/themes/bredewoldweb/js/animations.js */
          /***************************************************************************/
          jQuery(document).ready(function(){
 
