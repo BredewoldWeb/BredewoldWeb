@@ -1,9 +1,9 @@
 {
     "name": "text-image",
-    "title": "Teskt met afbeelding",
+    "title": "Tekst met afbeelding",
     "description": "Veld voor tekst met een afbeelding",
-    "category": "theme",
-    "icon": "admin-comments",
+    "category": "regular",
+    "icon": "align-pull-right",
     "acf": {
         "mode": "preview",
         "renderCallback": "render_text_image"

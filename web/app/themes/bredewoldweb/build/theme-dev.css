@@ -22,6 +22,11 @@ body.front-end header .inner, section.container .inner {
 body.front-end header .inner-wide, section.container .inner-wide {
   width: calc(100% / 14 * 12);
 }
+/* Styling for the WordPress backend */
+.wp-block {
+  width: 90% !important;
+  max-width: 90% !important;
+}
 /* #tinymce = Inside the tinymce editor */
 /* .mce-menu = The tinyMCE menu bar */
 /* section.container = front-end and backend */
