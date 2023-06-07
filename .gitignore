@@ -6,3 +6,4 @@ web/app/object-cache.php
 web/app/wp-cache-config.php
 web/app/debug.log
 .DS_Store
+.env
