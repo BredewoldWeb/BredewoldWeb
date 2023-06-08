@@ -479,3 +479,4 @@ Stack trace:
 [09-Apr-2023 19:27:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 8
 [09-Apr-2023 19:27:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
 [09-Apr-2023 19:27:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\bredewoldweb\web\app\themes\bredewoldweb\blocks\text-image\view.php on line 15
+[30-May-2023 09:41:40 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/bredewoldweb/web/wp/wp-includes/class-wpdb.php on line 2019
