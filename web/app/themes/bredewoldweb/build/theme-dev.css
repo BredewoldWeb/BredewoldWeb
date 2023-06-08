@@ -1,3 +1,23 @@
+body.front-end, section.container, #tinymce {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #000;
+  /* How to handle spacing in text */
+}
+body.front-end p, body.front-end h1, body.front-end h2, body.front-end h3, body.front-end h4, body.front-end h5, body.front-end h6, section.container p, section.container h1, section.container h2, section.container h3, section.container h4, section.container h5, section.container h6, #tinymce p, #tinymce h1, #tinymce h2, #tinymce h3, #tinymce h4, #tinymce h5, #tinymce h6 {
+  margin: 0px;
+}
+body.front-end p.space, section.container p.space, #tinymce p.space {
+  min-height: 30px;
+  height: 30px;
+}
+@media (max-width: 500px) {
+  body.front-end p.space + p.space, section.container p.space + p.space, #tinymce p.space + p.space {
+    min-height: 10px;
+    height: 10px;
+  }
+}
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -21,6 +41,11 @@ body.front-end header .inner, section.container .inner {
 }
 body.front-end header .inner-wide, section.container .inner-wide {
   width: calc(100% / 14 * 12);
+}
+/* Styling for the WordPress backend */
+.wp-block {
+  width: 90% !important;
+  max-width: 90% !important;
 }
 /* #tinymce = Inside the tinymce editor */
 /* .mce-menu = The tinyMCE menu bar */

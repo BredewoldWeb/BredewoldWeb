@@ -65,6 +65,10 @@ add_action('block_categories_all', function ($categories) {
      $categories,
      array(
         array(
+           'slug'  => 'regular',
+           'title' => 'Algemeen'
+        ),
+        array(
           'slug'  => 'admin',
           'title' => 'Admin only'
         )

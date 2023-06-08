@@ -1,0 +1,22 @@
+body.front-end, 
+section.container, 
+#tinymce{ 
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #000;
+
+    p, h1, h2, h3, h4, h5, h6{
+        margin: 0px; 
+    }
+    
+    /* How to handle spacing in text */
+    p.space{
+        min-height: 30px; height: 30px; 
+        & + p.space{
+            @media (max-width: 500px) {
+               min-height: 10px; height: 10px; 
+            }
+        }
+    }
+}
