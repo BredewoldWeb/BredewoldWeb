@@ -1,9 +1,9 @@
 {
     "name": "text",
-    "title": "Tesktveld",
+    "title": "Tekstveld",
     "description": "Veld voor tekst",
-    "category": "theme",
-    "icon": "admin-comments",
+    "category": "regular",
+    "icon": "editor-alignleft",
     "acf": {
         "mode": "preview",
         "renderCallback": "render_text"

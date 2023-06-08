@@ -10,7 +10,8 @@
          <div class="spacer"></div>
 
          <picture class="image">
-            <img src="<?= $fields['image']['url']; ?>" />
+            <source srcset="<?= $fields['cropped']['desktop_webp']; ?>" type="image/webp"/>
+            <img src="<?= $fields['cropped']['desktop']; ?>" alt="<?= $fields['image']['alt']; ?>"/>
          </picture>
 
       </div>

@@ -6,10 +6,9 @@
 		<?php wp_head(); ?>
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class('front-end'); ?>>
 
-		<header>
-		</header>
+	    <?php include 'blocks/header/view.php'; ?>
 
 		<main>
 

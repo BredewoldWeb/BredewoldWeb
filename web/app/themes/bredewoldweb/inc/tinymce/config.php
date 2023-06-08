@@ -4,7 +4,10 @@
 add_filter('tiny_mce_before_init', function ($tiny_options) {
 
     $tiny_options['textcolor_rows'] = 1;
-    $tiny_options['textcolor_map'] = '["000000", "Zwart"]';
+    $tiny_options['textcolor_map'] = '[
+        "000000", "Zwart",
+        "ffffff", "Wit"
+    ]';
 
     return $tiny_options;
 
@@ -14,13 +17,13 @@ add_filter('tiny_mce_before_init', function ($tiny_options) {
 /* default $buttons: ["formatselect","bold","italic","bullist","numlist","blockquote","alignleft","aligncenter","alignright","link","wp_more","spellchecker","fullscreen","wp_adv"] */
 add_filter('mce_buttons', function ($buttons) {
 
-    return ["formatselect", "forecolor", "bold", "italic", "bullist", "numlist", "link", "spellchecker"];
+    return ["formatselect", "forecolor", "bold", "italic", "bullist", "numlist", "link", "cta"];
 
 });
 
 
 /* unset second bar for tinymce */
-/* default $buttons: ["strikethrough","hr","forecolor","pastetext","removeformat","charmap","outdent","indent","undo","redo","wp_help"] */
+/* Default $buttons: ["strikethrough","hr","forecolor","pastetext","removeformat","charmap","outdent","indent","undo","redo","wp_help"] */
 add_filter('mce_buttons_2', function ($buttons) {
     return [];
 });
@@ -52,4 +55,11 @@ add_filter('mce_css', function ($url) {
 
     return $url;
 
+});
+
+
+/* Add custom plugin functionality to tinyMCE */
+add_filter('mce_external_plugins', function ($plugins) {
+    $plugins['cta'] = get_template_directory_uri().'/inc/tinymce/plugins/cta.js?v=' . mt_rand(0, 10000);
+    return $plugins;
 });
