@@ -1,16 +1,16 @@
 /* Layout */
-$row-spacing: 20px;
-$column-spacing: 20px;
+$row-spacing: 40px;
+$column-spacing: 40px;
 
 /* Fonts */
 $font-size: 18px;
 
 /* Inputs */
-$input-background-color: #f1f0f0;
-$input-border-radius: 0px;
+$input-background-color: #fff;
+$input-border-radius: 6px;
 $input-border-color: #000;
 $input-border-color-hover: #000;
-$input-border: 0px 0px 0px 0px;
+$input-border: 1px;
 $input-padding: 18px 28px;
 $input-height: 65px;
 
@@ -28,9 +28,6 @@ $radio-size: 30px;
 $radio-row-size: 40px;
 $radio-primary-color: #000;
 $radio-secondary-color: #fff;
-
-/* Select */
-$arrow-down-color: #000000;
 
 
 body.front-end,
