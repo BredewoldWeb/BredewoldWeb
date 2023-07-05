@@ -5,7 +5,7 @@ if (!function_exists('is_plugin_active')) {
 }
 
 /* Check if dev-tools plugin is active */
-if( is_plugin_active('dev-tools/dev-tools.php') ){
+if( is_plugin_active('dev-tools/dev-tools.php') && WP_ENV == 'development' ){
     
     $dir = get_template_directory();
 

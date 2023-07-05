@@ -1,0 +1,92 @@
+.ginput_container_checkbox,
+.ginput_container_consent {
+  div.gfield_checkbox {
+    display: flex;
+    flex-direction: column;
+
+    div.gchoice {
+      display: flex;
+      width: 100%;
+      position: relative;
+      align-items: center;
+      height: $checkbox-row-size;
+    }
+  }
+
+  input[type=checkbox] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    margin: 0;
+    z-index: 2;
+    opacity: 0;
+
+    + label {
+      display: flex;
+      align-items: center;
+      height: $checkbox-row-size;
+      position: relative;
+      font-size: $font-size;
+      padding: 0 0 0 calc(#{$checkbox-size} + 20px);
+      margin: 0;
+    }
+
+    + label:after {
+      content: '';
+      box-sizing: border-box;
+      font-size: $checkbox-size;
+      color: #fff;
+      position: absolute;
+      top: #{($checkbox-row-size - $checkbox-size) / 2};
+      left: 0;
+      cursor: pointer;
+      font-size: $checkbox-size;
+      width: $checkbox-size;
+      height: $checkbox-size;
+      background-color: $checkbox-primary-color;
+      border: 0px solid #e5e5e5;
+      border-radius: 2px; 
+      transition: background-color 0.2s, border 0s ease 0.2s;
+    }
+
+    &:checked + label:after {
+      transition: all 0.2s;
+    }
+
+    &:checked + label:before {
+      content: '';
+      border-bottom: 2px solid $checkbox-secondary-color;
+      border-left: 2px solid $checkbox-secondary-color;
+      width: #{$checkbox-size / 3};
+      height: #{$checkbox-size / 5};
+      position: absolute; 
+      z-index: 2; 
+      left: #{$checkbox-size / 3.25};
+      top: calc(50% - #{$checkbox-size / 4.75});
+      transform: rotate(-54deg);
+    }
+  }
+}
+
+/* Additional styling for the consent checkbox */
+.ginput_container_consent {
+  display: flex;
+  position: relative;
+
+  .gfield_consent_label{
+    flex-wrap: wrap;
+    a{ margin: 0px 4px; }
+  }
+
+  input[type=checkbox] {
+    + label {
+      font-size: $font-size; 
+      a{
+        position: relative;
+        text-decoration: underline;
+        z-index: 3;
+      }
+    }
+  }
+}

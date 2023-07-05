@@ -1,0 +1,17 @@
+{
+    "name": "forms",
+    "title": "Formulier",
+    "description": "Veld voor een formulier",
+    "category": "admin",
+    "icon": "forms",
+    "acf": {
+        "mode": "preview",
+        "renderCallback": "render_forms"
+    },
+    "supports": {
+        "align": false,
+        "customClassName": true,
+        "multiple": true,
+        "reusable": true
+    }
+}
