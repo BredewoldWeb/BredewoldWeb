@@ -56,3 +56,6 @@ require_once 'inc/block-templates.php';
 
 /* Add image cropper */
 require_once 'inc/cropper.php';
+
+/* Add email styling and SMTP functionality */
+require_once 'inc/smtp.php';
