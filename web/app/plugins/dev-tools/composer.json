@@ -5,7 +5,6 @@
       "scssphp/scssphp": "^1.10.2",
       "matthiasmullie/minify": "^1.3",
       "gkralik/php-uglifyjs": "^1.0",
-      "tonyhhyip/sse": "^2.1.3",
-      "mailjet/mailjet-apiv3-php": "^1.5.8"
+      "tonyhhyip/sse": "^2.1.3"
    }
 }

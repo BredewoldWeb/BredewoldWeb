@@ -12,9 +12,11 @@ Tool for developing with bredewold
 
 == Changelog ==
 
+= 1.15 =
+* Only initialize when bedrock WP_ENV is set to development
+
 = 1.14 =
 * Update vendor files
-* Add Mailjet API for localhost Emailing
 
 = 1.13 =
 * Update vendor files
