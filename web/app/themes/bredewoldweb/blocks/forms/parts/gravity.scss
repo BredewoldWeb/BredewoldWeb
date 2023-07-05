@@ -64,6 +64,7 @@ form div.gform-body{
          label.gfield_label,
          legend.gfield_label {
             margin-bottom: 10px;
+            font-size: $font-size; 
          }
 
          &.hidden_label .gfield_label {

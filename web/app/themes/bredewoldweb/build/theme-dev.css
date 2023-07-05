@@ -357,6 +357,7 @@ body.front-end form div.gform-body div.gform_fields div.gfield--width-full, body
 }
 body.front-end form div.gform-body div.gform_fields div.gfield label.gfield_label, body.front-end form div.gform-body div.gform_fields div.gfield legend.gfield_label, body.front-end form div.gform-body div.gform_fields fieldset.gfield label.gfield_label, body.front-end form div.gform-body div.gform_fields fieldset.gfield legend.gfield_label, section.container form div.gform-body div.gform_fields div.gfield label.gfield_label, section.container form div.gform-body div.gform_fields div.gfield legend.gfield_label, section.container form div.gform-body div.gform_fields fieldset.gfield label.gfield_label, section.container form div.gform-body div.gform_fields fieldset.gfield legend.gfield_label {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 body.front-end form div.gform-body div.gform_fields div.gfield.hidden_label .gfield_label, body.front-end form div.gform-body div.gform_fields fieldset.gfield.hidden_label .gfield_label, section.container form div.gform-body div.gform_fields div.gfield.hidden_label .gfield_label, section.container form div.gform-body div.gform_fields fieldset.gfield.hidden_label .gfield_label {
   display: none;
@@ -415,7 +416,7 @@ body.front-end input[type=email], body.front-end input[type=text], body.front-en
   padding: 18px 28px;
   transition: all 0.6s;
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
 }
 body.front-end input[type=email]:focus, body.front-end input[type=text]:focus, body.front-end input[type=number]:focus, body.front-end input[type=tel]:focus, body.front-end input[type=password]:focus, body.front-end input[type=url]:focus, body.front-end select:focus, body.front-end textarea:focus, section.container input[type=email]:focus, section.container input[type=text]:focus, section.container input[type=number]:focus, section.container input[type=tel]:focus, section.container input[type=password]:focus, section.container input[type=url]:focus, section.container select:focus, section.container textarea:focus {
   outline: none;
@@ -481,7 +482,7 @@ body.front-end .ginput_container_radio div.gfield_radio div.gchoice input + labe
   align-items: center;
   height: 40px;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
   padding: 0 0 0 calc(30px + 20px);
   margin: 0;
 }
@@ -531,7 +532,7 @@ body.front-end .ginput_container_checkbox input[type=checkbox] + label, body.fro
   align-items: center;
   height: 40px;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
   padding: 0 0 0 calc(30px + 20px);
   margin: 0;
 }
@@ -578,7 +579,7 @@ body.front-end .ginput_container_consent .gfield_consent_label a, section.contai
   margin: 0px 4px;
 }
 body.front-end .ginput_container_consent input[type=checkbox] + label, section.container .ginput_container_consent input[type=checkbox] + label {
-  font-size: 18px;
+  font-size: 20px;
 }
 body.front-end .ginput_container_consent input[type=checkbox] + label a, section.container .ginput_container_consent input[type=checkbox] + label a {
   position: relative;
