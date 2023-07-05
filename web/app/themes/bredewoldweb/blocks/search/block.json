@@ -1,0 +1,17 @@
+{
+    "name": "search",
+    "title": "Zoeken",
+    "description": "Veld voor zoeken op de website",
+    "category": "admin",
+    "icon": "search",
+    "acf": {
+        "mode": "preview",
+        "renderCallback": "render_search"
+    },
+    "supports": {
+        "align": false,
+        "customClassName": true,
+        "multiple": true,
+        "reusable": true
+    }
+}

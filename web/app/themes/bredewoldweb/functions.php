@@ -12,6 +12,12 @@ add_action('wp_enqueue_scripts', function(){
    /* Enqueue scripts */
    wp_enqueue_script('theme-js', get_template_directory_uri() . '/build/theme.js', array('jquery'), filemtime(get_template_directory() . '/build/theme.js'));
 
+   /* add ajax support to theme js */
+   wp_localize_script( 'theme-js', 'theme', array(
+      'ajax_url' => admin_url( 'admin-ajax.php' ),
+      'site_url' => home_url(),
+   ) );
+
 });  
 
 /* Make sure that the backend is styled the same as the front-end */

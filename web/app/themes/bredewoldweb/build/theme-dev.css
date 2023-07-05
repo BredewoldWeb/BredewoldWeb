@@ -648,6 +648,101 @@ body.front-end header .inner-wide {
   display: flex;
   justify-content: space-between;
 }
+section.search {
+  padding: 120px 0px;
+}
+section.search .filter-wrapper, section.search .results-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+section.search .filter-wrapper {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+section.search .results-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+section.search .results-container .result-title {
+  margin-bottom: 20px;
+}
+section.search .results-container .single-result + .result-title {
+  margin-top: 60px;
+}
+section.search .search-notice p {
+  padding-bottom: 55px;
+}
+section.search .search-notice p:empty {
+  display: none;
+}
+section.search .big-search {
+  width: 100%;
+}
+section.search .big-search .search-bar {
+  position: relative;
+}
+section.search .big-search .search-bar .search-icon {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  user-select: none;
+}
+section.search .big-search .search-bar .search-icon svg {
+  width: 100%;
+  height: 100%;
+}
+section.search .big-search .search-bar .search-icon svg * {
+  fill: #000;
+}
+section.search .big-search .search-bar input {
+  width: 100%;
+  height: 80px;
+  padding: 0px 180px 0px 80px;
+  transition: all 0.2s;
+}
+section.search .big-search .search-bar .status-indicator {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  right: 18px;
+  top: 0;
+}
+section.search .big-search .search-bar .status-indicator .search-cta {
+  margin-top: 2px;
+  user-select: none;
+  cursor: pointer;
+}
+section.search .big-search .search-bar .status-indicator .loading-icon {
+  display: none;
+}
+section.search .big-search .search-bar .status-indicator .loading-icon img {
+  height: 21px;
+}
+section.search.loading .big-search .search-bar .status-indicator .loading-icon {
+  display: flex;
+}
+section.search.loading .big-search .search-bar .status-indicator .search-cta {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  section.search .big-search .search-bar .search-icon {
+    display: none;
+  }
+  section.search .big-search .search-bar input {
+    padding: 0px 140px 0px 20px;
+  }
+  section.search .big-search .search-bar .status-indicator .cta {
+    padding: 12px 20px 12px 20px;
+  }
+}
 section.text-image.container .text-image-wrapper {
   display: flex;
 }
