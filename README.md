@@ -8,8 +8,11 @@ Maak een folder aan in je localhost configuratie. open de command line in deze f
 Stap 2. 
 Installeer Bedrock [Bedrock installation documentation](https://roots.io/bedrock/docs/installation/#getting-started).
 
-Stap 3 
+Stap 3. 
 Stel de .htaccess in /web in op de gewenste foldernaam. 
+
+Stap 4. 
+Installeer WordPress. Activeer eerst alle plugins en daarna het Bredewoldweb thema
 
 
 ## Livegang stappenplan
