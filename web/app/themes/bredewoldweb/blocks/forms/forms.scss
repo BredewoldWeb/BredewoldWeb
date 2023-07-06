@@ -1,0 +1,49 @@
+/* Layout */
+$row-spacing: 40px;
+$column-spacing: 40px;
+
+/* Fonts */
+$font-size: 20px;
+
+/* Inputs */
+$input-background-color: #fff;
+$input-border-radius: 6px;
+$input-border-color: #000;
+$input-border-color-hover: #000;
+$input-border: 1px;
+$input-padding: 18px 28px;
+$input-height: 65px;
+
+/* Textarea */
+$textarea-height: 180px;
+
+/* Checkbox */
+$checkbox-size: 30px;
+$checkbox-row-size: 40px;
+$checkbox-primary-color: #e5e5e5;
+$checkbox-secondary-color: #000;
+
+/* Radio */
+$radio-size: 30px;
+$radio-row-size: 40px;
+$radio-primary-color: #000;
+$radio-secondary-color: #fff;
+
+
+body.front-end,
+section.container {
+   
+   /* gravity forms field layouts and general styling */
+   @import "parts/gravity.scss";
+   
+   /* General styling for regular input elements */
+   @import "parts/input-fields";
+   
+   /* Styling specifically for the radio and checkbox inputs */
+   @import "parts/radio";
+   @import "parts/checkbox";
+   
+   /* Styling for the error handling */
+   @import "parts/errors";
+   
+} 

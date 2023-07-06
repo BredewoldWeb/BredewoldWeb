@@ -1,0 +1,62 @@
+input[type=email],
+input[type=text],
+input[type=number],
+input[type=tel],
+input[type=password],
+input[type=url],
+select,
+textarea {
+   display: flex;
+   align-items: center;
+   border: 0px solid $input-border-color;
+   border-width: $input-border;
+   background-color: $input-background-color;
+   border-radius: $input-border-radius;
+   height: $input-height;
+   width: 100%;
+   -webkit-appearance: none;
+   appearance: none;
+   padding: $input-padding;
+   transition: all 0.6s;
+   color: #000;
+   font-size: $font-size;
+
+   &:focus {
+      outline: none;
+      border: 0px solid $input-border-color-hover;
+      border-width: $input-border;
+      background-color: #fff;
+      box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s;
+   }
+}
+
+textarea {
+   height: $textarea-height;
+   padding-top: $input-padding;
+}
+
+select {
+   cursor: pointer;
+   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 14.8"><polygon points="21.2 0 12 9.2 2.8 0 0 2.8 12 14.8 24 2.8 " fill="%23000"/></svg>');
+   background-position: calc(100% - 20px) center;
+   background-repeat: no-repeat;
+   background-size: 12px 7px;
+   padding: $input-padding;
+}
+
+input[type=submit] {
+   appearance: none;
+   border: 0px solid #fff;
+   display: flex;
+   height: auto;
+   cursor: pointer;
+}
+
+/* Give input placeholders a custom color */
+::-webkit-input-placeholder {  color: #000; }
+:-moz-placeholder {  color: #000; }
+::-moz-placeholder {  color: #000; }
+:-ms-input-placeholder {  color: #000; }
+
+   
