@@ -34,6 +34,7 @@ textarea {
 textarea {
    height: $textarea-height;
    padding-top: $input-padding;
+   resize: none; 
 }
 
 select {
