@@ -1,52 +1,51 @@
-/* Styling the login screen */
 body.login {
-    background-color: #fff;
-  }
-  body.login label{
-    color:#fff;
-  }
-  body.login div#login h1 a {
-    max-width: 272px;
-    width: 100%;
-    background-image:url('images/login-logo.svg');
-    background-size: contain;
-  }
-  body.login div#login form#loginform {
-    border:none;
-    box-shadow: 0px 3px 6px rgba(00,00,00,0.16);
-    background-color: #139BD7;
-  }
-  body.login div#login form#loginform input {
-    padding: .1875rem .3125rem;
-    border:none;
-    border-radius: none; 
-    box-shadow: none;
-    font-size: 14px;
-    color:#333;
-  }
-  body.login div#login form#loginform input:focus {
-    box-shadow: 0px 3px 6px rgba(00,00,00,0.16);
-    border-color:#333;
-  }
-  body.login div#login form#loginform p.forgetmenot {
-    margin-bottom: 16px;
-  }
-  body.login div#login form#loginform p.submit input#wp-submit {
-    width: 100%;
-    border:none;
-    transition: .2s ease;
-    color: #139BD7;
-    background-color: #fff;
-  }
-  body.login div#login form#loginform p.submit input#wp-submit:hover {
-    box-shadow: 0px 3px 6px rgba(00,00,00,0.16);
-    color:#fff;
-    background-color: #333;
-  }
-  
-  .dashicons-visibility:before{
-    color:#139BD7;
-  }
-  .dashicons-hidden:before{
-    color:#333;
-  }
+  background-color: #FFFFFF;
+}
+body.login label{
+  color:#333;
+}
+body.login div#login h1 a {
+  max-width: 272px;
+  width: 100%;
+  background-image:url('../../img/login-logo.png');
+  background-size: contain;
+}
+body.login div#login form {
+  border:none;
+  box-shadow: 0px 3px 6px rgba(00,00,00,0.16);
+  background-color: #F9F9F9;
+}
+body.login div#login form input {
+  padding: .1875rem .3125rem;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  transition: .2s ease;
+  box-shadow: 0px 3px 6px rgba(00,00,00,0.16);
+  font-size: 14px;
+  color:#333;
+}
+body.login div#login form input:focus {
+  /* box-shadow: 0px 3px 6px rgba(00,00,00,0.0); */
+  border: 1px solid #333;
+}
+body.login div#login form p.forgetmenot {
+  margin-bottom: 16px;
+}
+body.login div#login form p.submit input#wp-submit {
+  width: 100%;
+  border:none;
+  transition: .2s ease;
+  color: #fff;
+  background-color: #139BD7;
+}
+body.login div#login form p.submit input#wp-submit:hover {
+  color:#fff;
+  background-color: #333;
+}
+
+.dashicons-visibility:before{
+  color:#139BD7;
+}
+.dashicons-hidden:before{
+  color:#333;
+}
