@@ -38,3 +38,8 @@ add_filter('script_loader_tag', function ($url) {
     if (strpos($url, '.css')) return str_replace(' href', ' rel="preload" as="style" onload="this.onload=null;this.rel=\'stylesheet\'"> href', $url);
 
 }, 10);
+
+/* Change hyperlink for login logo */
+add_filter( 'login_headerurl', function(){
+    return "https://bredewold.nl"; 
+});
